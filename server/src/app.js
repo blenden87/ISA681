@@ -10,4 +10,8 @@ app.use(morgan('combine'))
 app.use(bodyParser.json())
 app.use(cors())
 
+app.get('satus',(req, res) => {
+
+})
+
 app.listen(proccess.env.PORT || 8081)
